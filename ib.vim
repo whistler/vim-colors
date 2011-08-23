@@ -56,18 +56,18 @@ hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00 cterm=bold g
 
 "" Syntax highlighting
 hi Comment      ctermfg=248 guifg=#808080
-hi Constant     ctermfg=252 guifg=#ffffaf
-hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
-hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
-hi Identifier   ctermfg=33 guifg=#dfafdf                           cterm=none
-hi Ignore       ctermfg=238 guifg=#444444
+hi Constant     ctermfg=254 guifg=#ffffaf
+hi Error        ctermfg=197 guifg=#ffffff ctermbg=1   guibg=#800000
+hi ErrorMsg     ctermfg=197 guifg=#ffffff ctermbg=1   guibg=#800000
+hi Identifier   ctermfg=33  guifg=#dfafdf                           cterm=none
+hi Ignore       ctermfg=248 guifg=#444444
 hi LineNr       ctermfg=123 guifg=#a8a8a8
-hi MatchParen   ctermfg=148 guifg=#dfdfdf ctermbg=68  guibg=#5f87df cterm=bold gui=bold
+hi MatchParen   ctermfg=148 guifg=#dfdfdf ctermbg=235 guibg=#5f87df cterm=bold gui=bold
 hi Number       ctermfg=148 guifg=#dfaf87
 hi PreProc      ctermfg=248 guifg=#afdf87
 hi Special      ctermfg=33  guifg=#df8787
-hi Statement    ctermfg=25  guifg=#87afdf                           cterm=none gui=none
-hi Todo         ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00
+hi Statement    ctermfg=33  guifg=#87afdf                           cterm=none gui=none
+hi Todo         ctermfg=248 guifg=#000000 ctermbg=184 guibg=#dfdf00
 hi Type         ctermfg=254 guifg=#afafdf                           cterm=none gui=none
 hi Underlined   ctermfg=148 guifg=#00afff                           cterm=underline gui=underline
 
@@ -77,7 +77,7 @@ hi diffAdded    ctermfg=150 guifg=#afdf87
 hi diffRemoved  ctermfg=174 guifg=#df8787
 """ vimdiff
 hi diffAdd      ctermfg=bg  guifg=bg      ctermbg=151 guibg=#afdfaf
-"hi diffDelete   ctermfg=bg  guifg=bg      ctermbg=186 guibg=#dfdf87 cterm=none gui=none
+hi diffDelete   ctermfg=bg  guifg=bg      ctermbg=186 guibg=#dfdf87 cterm=none gui=none
 hi diffDelete   ctermfg=bg  guifg=bg      ctermbg=246 guibg=#949494 cterm=none gui=none
 hi diffChange   ctermfg=bg  guifg=bg      ctermbg=181 guibg=#dfafaf
 hi diffText     ctermfg=bg  guifg=bg      ctermbg=174 guibg=#df8787 cterm=none gui=none
