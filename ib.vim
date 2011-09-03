@@ -3,7 +3,17 @@
 " Name:       ib.vim
 " Version:    0.1
 " Maintainer: Ibrahim Muhammad <muhaic@gmail.com>
-
+"
+" At the moment this theme only works properly in a 256 color terminal. A full
+" color terminal would show the base theme this was create from
+"
+" The color codes being used in this theme are listed below for reference.
+" 33  Blue for Identifier,special, statement
+" 123 LightBlue for LineNumbers
+" 148 LightGreen for MatchParen, Number, Underlined
+" 197 Pink for error
+" 248 LightGrey for comments, ignore, preproc, todo
+" 254 Gray for constants, type
 
 
 " Bla-bla ----------------------------------------------------------------------
@@ -34,8 +44,8 @@ hi Normal       ctermfg=252 guifg=#d0d0d0 ctermbg=234 guibg=#1c1c1c cterm=none g
 hi CursorColumn                           ctermbg=238 guibg=#444444
 hi Cursor                                 ctermbg=214 guibg=#ffaf00
 hi CursorLine                             ctermbg=238 guibg=#444444
-hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
-hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
+hi FoldColumn   ctermfg=234 guifg=#a8a8a8 ctermbg=123 guibg=bg
+hi Folded       ctermfg=234 guifg=#eeeeee ctermbg=123 guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
 hi NonText      ctermfg=248 guifg=#a8a8a8                           cterm=bold gui=bold
 hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=246 guibg=#949494
