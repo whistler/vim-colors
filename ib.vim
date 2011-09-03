@@ -57,8 +57,8 @@ hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00 cterm=bold g
 "" Syntax highlighting
 hi Comment      ctermfg=248 guifg=#808080
 hi Constant     ctermfg=254 guifg=#ffffaf
-hi Error        ctermfg=197 guifg=#ffffff ctermbg=1   guibg=#800000
-hi ErrorMsg     ctermfg=197 guifg=#ffffff ctermbg=1   guibg=#800000
+hi Error        ctermfg=197 guifg=#ffffff ctermbg=234 guibg=#800000
+hi ErrorMsg     ctermfg=197 guifg=#ffffff ctermbg=234 guibg=#800000
 hi Identifier   ctermfg=33  guifg=#dfafdf                           cterm=none
 hi Ignore       ctermfg=248 guifg=#444444
 hi LineNr       ctermfg=123 guifg=#a8a8a8
