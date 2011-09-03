@@ -56,11 +56,11 @@ hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00 cterm=bold g
 
 "" Syntax highlighting
 hi Comment      ctermfg=248 guifg=#808080
-hi Constant     ctermfg=254 guifg=#ffffaf
-hi Error        ctermfg=197 guifg=#ffffff ctermbg=234 guibg=#800000
-hi ErrorMsg     ctermfg=197 guifg=#ffffff ctermbg=234 guibg=#800000
+hi Constant     ctermfg=148 guifg=#ffffaf
+hi Error        ctermfg=161 guifg=#ffffff ctermbg=234 guibg=#800000
+hi ErrorMsg     ctermfg=161 guifg=#ffffff ctermbg=234 guibg=#800000
 hi Identifier   ctermfg=33  guifg=#dfafdf                           cterm=none
-hi Ignore       ctermfg=248 guifg=#444444
+hi Ignore       ctermfg=123 guifg=#444444
 hi LineNr       ctermfg=123 guifg=#a8a8a8
 hi MatchParen   ctermfg=148 guifg=#dfdfdf ctermbg=235 guibg=#5f87df cterm=bold gui=bold
 hi Number       ctermfg=148 guifg=#dfaf87
