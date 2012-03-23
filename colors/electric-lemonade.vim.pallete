@@ -1,0 +1,25 @@
+white = "FFFBFF"
+bg = "24231E"
+grey = "3B3931"
+light_blue = "7FD7D0"
+blue = "00C3DB"
+green = "B2D00C"
+
+
+vim_colors "electric_lemonade" do
+  author "Ibrahim Muhammad"
+  notes "A blue-green theme"
+
+  reset         true
+  background    :dark
+
+  Normal white, bg
+
+  Comment light_blue, bg
+  LineNr light_blue, bg
+
+  Cursor bg, light_blue
+  CursorColumn bg, light_blue
+  CursorLine normal, grey
+
+end
